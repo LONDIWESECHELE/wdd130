@@ -30,8 +30,14 @@ aside{
     margin: 1em;
     border: 2px solid rgba(0, 0, 0, 0.2);
     height: auto;
+    padding: 1em;
 }
-red
+
+aside img{
+    width: 200px;
+    height: auto;
+}
+
 p{
     padding: 0;
 }
