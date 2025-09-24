@@ -96,7 +96,7 @@ figure{
     margin: auto;
 }
 
-img{
+figure img{
     max-width: 220px;
     max-height: 150px;
 }
