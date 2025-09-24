@@ -99,6 +99,7 @@ figure{
 figure img{
     max-width: 220px;
     max-height: 150px;
+    float: left;
 }
 
 figcaption{
@@ -106,6 +107,6 @@ figcaption{
     color: white;
     font: italic smaller sans-serif;
     padding: 3px;
-    text-align: top;
+    text-align: center;
 }
 
