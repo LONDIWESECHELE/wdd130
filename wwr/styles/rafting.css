@@ -85,3 +85,27 @@ h1{
     height: auto;
     margin: 10px;
 }
+
+figure{
+    border: thin silver solid;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    justify-items: center;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+img{
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption{
+    background-color: #222222;
+    color: white;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: top;
+}
+
