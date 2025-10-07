@@ -7,7 +7,7 @@
     <title>Our Contacts - White Water Rafting</title>
     <meta name="description" content="For More Information Contact Us aS Follows : ">
     <meta name="author" content="Motheo Londiwe Sechele">
-    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylessheet" href="styles/rafting.css">
 </head>
 
 <body>
@@ -22,67 +22,65 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <div>
-            <h1>White Water Rafting Contact Us</h1>
-        </div>
-        <article>
-            <h2>Send Us A Message For More Information : </h2>
-            <p>Pilanesberg National Park</p>
-            <p>Kubu Street Pilanesberg,South Village</p>
-            <p>Sun City,North West,0300</p>
-            <p>Phone : +27 14 209 6647</p>
-            <p>Email : info@bakubungpilanesberg.co.za</p>
-            <div>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.753443019261!2d27.053238074558166!3d-25.34605327761547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebe0bbbc736ebf1%3A0xa828b90a09c072c0!2sBakubung%20Bush%20Lodge!5e0!3m2!1sen!2sza!4v1759246614886!5m2!1sen!2sza"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <form>
-                <div>
-                    <label for="user-name"> NAME : </label>
-                    <input type="text" id="user-name" name="user-name">
+    <main class="contact-page">
+        <section class="contact-info">
+            <h1>White Water Rafting Company</h1>
+            <address>
+                Kubu Street<br>
+                Pilanesberg,South Village<br>
+                Sun City,North West 0300<br>
+                <a href="Tel: +27 14 209 6647">+27 14 209 6647</a>
+                <a href="mailto: info@bakubungwhitewater.co.za">info@bakubungwhitewater.co.za</a>
+            </address>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1802.876721511023!2d27.05452017038425!3d-25.34605327752204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebe0bbbc736ebf1%3A0xa828b90a09c072c0!2sBakubung%20Bush%20Lodge!5e0!3m2!1sen!2sza!4v1759826847401!5m2!1sen!2sza"
+                width="400" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                class="gmap"></iframe>
+
+            <form action="#" class="contact-form">
+                <label for="user-name"> NAME : </label>
+                <input type="text" id="user-name" name="user-name" required placeholder="Your full name">
+                <label for="user-email-address"> EMAIL ADDRESS : </label>
+                <input type="text" id="user-email-address" name="user-email-address" required
+                    placeholder="Your email address">
+                <div class="purpose">
+                    <p>MESSAGE PURPOSE :</p>
+                    <fieldset>
+                        <label for="general-inquiry"> Genral Inquiry</label>
+                        <input type="radio" id="general-inquiry" name="general-inquiry">
+                        <label for="reservation-question"> Reservation Question</label>
+                        <input type="radio" id="reservation-question" name="reservation-question">
+                        <label for="website-suggestions">Website Suggestions</label>
+                        <input type="radio" id="website-suggestions" name="website-suggestions">
+                    </fieldset>
+
                 </div>
-                <div>
-                    <label for="user-email-address"> EMAIL ADDRESS : </label>
-                    <input type="text" id="user-email-address" name="user-email-address">
-                </div>
-                <div>
-                    <p>MESSAGE PURPOSE : </p>
-                    <label for="general-inquiry"> Genral Inquiry</label>
-                    <input type="radio" id="general-inquiry" name="general-inquiry">
-                    <label for="reservation-question"> Reservation Question</label>
-                    <input type="radio" id="reservation-question" name="reservation-question">
-                    <label for="website-suggestions">Website Suggestions</label>
-                    <input type="radio" id="website-suggestions" name="website-suggestions">
-                </div>
-                <div>
-                    <label for="the-message"> MESSAGE : </label>
-                    <textarea id="the-message" name="the-message"></textarea>
-                </div>
-                <div>
+                <label for="the-message"> MESSAGE : </label>
+                <textarea id="the-message" name="the-message" rows="4" required
+                    placeholder="Enter your inquiry"></textarea>
+                <div class="subscribe">
                     <label for="subscribe">SUBSCRIBE FOR MONTHLY UPDATES</label>
                     <input type="checkbox" id="subscribe" name="subscribe">
                 </div>
+
                 <button type="submit">Submit Form!</button>
             </form>
-        </article>
-        <section>
-            <h3>We Are Here To Ensure Your Safety | Our Dream Team </h3>
-            <figure>
-                <img src="images/rafting-instructor03.jpg" alt="instructor1">
-                <figcaption>CHIEF INSTURCTOR & CO-FOUNDER | JK.MATTHEWS </figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting-instructor01.jpg" alt="instructor2">
-                <figcaption>INSTURCTOR | MJ.VAN DER MERVER</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting-instructor02.jpg" alt="instrustor3">
-                <figcaption>ASSISTANT INSTRUCTOR | KD.ACKERMAAN </figcaption>
-            </figure>
-        </section>
+            </article>
+            <section class="employee">
+                <h2>We Are Here To Ensure Your Safety | Our Dream Team </h2>
+                <figure class="employee">
+                    <img src="images/rafting-instructor03.jpg" alt="instructor1">
+                    <figcaption>CHIEF INSTURCTOR & CO-FOUNDER | JK.MATTHEWS </figcaption>
+                </figure>
+                <figure class="employee">
+                    <img src="images/rafting-instructor01.jpg" alt="instructor2">
+                    <figcaption>SAFETY OFFICER & TOUR GUIDE| MJ.VAN DER MERVER</figcaption>
+                </figure>
+                <figure class="employee">
+                    <img src="images/rafting-instructor02.jpg" alt="instrustor3">
+                    <figcaption>TOUR GUIDE| KD.ACKERMAAN </figcaption>
+                </figure>
+            </section>
     </main>
     <footer>
         <p>&copy; 2025| MOTHEO LONDIWE SECHELE | RUSTENBURG-NORTH WEST,SOUTH AFRICA</p>
